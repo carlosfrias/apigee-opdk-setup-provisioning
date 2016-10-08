@@ -1,5 +1,5 @@
 ---
-# tasks file for opdk-setup-provisioning
+# tasks file for apigee-opdk-setup-provisioning
 - name: Obtain apigee-provision status
   stat:
     path: '{{ apigee_provision_dir }}'
